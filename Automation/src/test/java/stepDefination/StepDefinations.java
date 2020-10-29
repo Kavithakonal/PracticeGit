@@ -30,6 +30,7 @@ public class StepDefinations {
 		driver.get("http://www.qaclickacademy.com/");
 		driver.findElement(By.xpath("//span[contains(text(),'Login')]")).click();
 		System.out.println("browser launched sucessfully");
+		System.out.println("entered Url sucessfully");
 		
 	}
 	 
