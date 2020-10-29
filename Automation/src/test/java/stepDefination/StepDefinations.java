@@ -28,6 +28,7 @@ public class StepDefinations {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("http://www.qaclickacademy.com/");
+		System.out.println("URL entered sucessfully");
 		driver.findElement(By.xpath("//span[contains(text(),'Login')]")).click();
 		System.out.println("browser launched sucessfully");
 		
